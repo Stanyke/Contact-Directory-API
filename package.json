@@ -1,0 +1,32 @@
+{
+  "name": "contact-directory-api",
+  "version": "1.0.0",
+  "description": "This is a node.js application/api used to store and read contact info in a json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stanyke/Contact-Directory-API.git"
+  },
+  "keywords": [
+    "storage",
+    "contact",
+    "list"
+  ],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.5.0",
+    "nodemon": "^2.0.12"
+  },
+  "author": "Stanley Chibuike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stanyke/Contact-Directory-API/issues"
+  },
+  "homepage": "https://github.com/Stanyke/Contact-Directory-API#readme"
+}
